@@ -2,13 +2,12 @@
 
 int main() {
     char nom[50];
-    printf("-------------*******--------------\n");
-    printf(" What is your name ?\n");
+    
+    printf(" What is your name ?");
 
     scanf("%s", nom); 
 
     printf(" Hello! %s\n", nom); 
-    printf("----------------------------------");
 
     return 0;
 }
